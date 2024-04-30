@@ -1,0 +1,223 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 80px 20px 80px;
+  align-items: center;
+}
+
+.search{
+display: flex;
+position: relative;
+}
+.search input{
+  width: 230px;
+  height: 30px;
+  padding-left: 30px;
+  background:rgb(247, 244, 244);
+  border: none; border-radius: 8px;
+}
+.search img{
+position: absolute;
+top: 3px;
+left: 5px;
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.icons{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.icons .icon1{
+  width: 25%;
+  height: 12%;
+}
+.icons .icon3{
+  width: 15%;
+  height: 12%;
+  
+}
+.box{
+  background: #000;
+  color: white;
+
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+}
+.beyond{
+display: flex;
+flex-direction: column;
+
+}
+.pro{ 
+  color: rgb(187, 183, 183);
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+.iphone14{
+  font-size: 55px;
+  font-weight: 100px;
+  padding-bottom: 8px;
+
+}
+.created{
+  color: rgb(187, 183, 183);
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+.shop{
+  background: #000;
+  color: white;
+  border: 1px solid white;
+  width: 130px;
+  height: 35px;
+}
+.i14{
+  width: 400px;
+  height: 500px;
+}
+
+.advert{
+  display: grid;
+  grid-template-rows: repeat(2, 250px);
+  grid-template-columns: repeat(4, 1fr);
+  background:red;
+ 
+}
+.grid1{
+  background: white;
+  grid-column: 1/3;
+  display: flex;
+}
+.grid1 img{
+  height: 100%;
+  
+}
+.play{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.play h3{
+  font-size: 40px;
+  padding-bottom: 8px;
+  padding-right: 53px;
+}
+.play p{
+  color: gray;
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 65px;
+  
+}
+.grid2{
+  background:rgb(232, 230, 230);
+  grid-column:3/5 ;
+  grid-row: 1/3;
+  display: flex;
+  overflow-x: hidden;
+}
+.mac{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.mac h3{
+  font-size: 40px;
+  font-weight: 100;
+  padding-bottom: 8px;
+  padding-right: 90px;
+
+}
+.mac p{
+  color: gray;
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 40px; 
+}
+.mac button{
+  width: 35%;
+  height: 8%;
+  border-radius: 5px;
+  border: 1px solid;
+  margin: 5px 180px 0px 0px;
+
+
+}
+.grid2 img{
+  height: 90%;
+  margin-top: 30px;
+}
+
+
+
+
+.grid3{
+  background:rgb(232, 230, 230);
+  grid-row: 2/3;
+  display: flex;
+}
+.grid3 img{ 
+  height: 100%;
+}
+.air{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.air h3{
+  font-size: 30px;
+  font-weight: 100;
+  padding-bottom: 8px; 
+  padding-left: 20px;
+}
+.air p{
+  color: gray;
+  font-size: 15px;
+  line-height: 25px;
+}
+.grid4{
+  background: #191818;
+  color: white;
+  grid-row: 2/3;
+  display: flex;
+}
+.grid4 img{
+  margin-top: 50px;
+}
+.vision{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.vision h3{
+  font-size: 25px;
+  font-weight: 100;
+  padding: 0px 35px 8px 0px;
+
+  
+}
+.vision p{
+  color: gray;
+  font-size: 15px;
+  line-height: 25px;
+  padding-left: 10px;
+}
