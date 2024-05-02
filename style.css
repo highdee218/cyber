@@ -164,10 +164,6 @@ flex-direction: column;
   height: 90%;
   margin-top: 30px;
 }
-
-
-
-
 .grid3{
   background:rgb(232, 230, 230);
   grid-row: 2/3;
@@ -212,12 +208,223 @@ flex-direction: column;
   font-size: 25px;
   font-weight: 100;
   padding: 0px 35px 8px 0px;
-
-  
 }
 .vision p{
   color: gray;
   font-size: 15px;
   line-height: 25px;
   padding-left: 10px;
+}
+.category{
+  margin: 50px 150px;
+}
+.bbi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.browse{
+  font-size: 18px;
+  font-weight: 600;
+}
+.arrow{
+  display: flex;
+  gap: 20px;
+}
+.arrow img{
+  width: 18%;
+}
+.gadget{
+  display: grid;
+  gap: 20px;
+  grid-template-rows: repeat(1, 250px);
+  grid-template-columns: repeat(6, 1fr);
+  background: rgb(248, 247, 247);
+  margin: 20px;
+}
+.gadgetGrid1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius: 10px;
+  height: 50%;
+}
+.gadgetGrid2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius: 10px;
+  height: 50%;
+}
+.gadgetGrid3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius: 10px;
+  height: 50%;
+}
+.gadgetGrid4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius: 10px;
+  height: 50%;
+}
+.gadgetGrid5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius: 10px;
+  height: 50%;
+}
+.gadgetGrid6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius: 10px;
+  height: 50%;
+}
+.sectionArrival{
+  margin: 0 150px;
+}
+.arrival{
+  display: flex;
+  gap: 30px; 
+}
+.gadget2{
+  display: grid;
+  gap: 20px;
+  grid-template-rows: repeat(2, 250px);
+  grid-template-columns: repeat(4, 1fr);
+  margin: 20px;
+}
+.gadget2Grid1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius : 10px;
+}
+#white{
+  padding-left: 170px;
+}
+#iphoneblue{
+  height: 40%;
+  width: 30%;
+}.gadget2 p{
+  font-size:10px;
+  font-weight: 600;
+  text-align: center;
+  padding: 7px 0px;
+}
+.gadget2 h4{
+  padding: 7px 0px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.gadget2 button{
+  background: #000;
+  color: white;
+  width: 40%;
+  height:10%;
+  border-radius: 4px;
+  border: none;
+  font-size: 10px;
+}
+.gadget2Grid2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius : 10px;
+}
+#icamera{
+  width: 40%;
+  height: 40%;
+}  
+.gadget2Grid3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius : 10px;
+}
+#swatch{
+  width: 40%;
+  height: 40%;
+}
+.gadget2Grid4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius : 10px;
+}
+#hset{
+  width: 40%;
+  height: 40%;
+}
+.gadget2Grid5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius : 10px;
+}
+#gwatch{
+  width: 40%;
+  height: 40%;
+}
+.gadget2Grid6{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius : 10px;
+}
+#gfold{
+  width: 40%;
+  height: 40%;
+}
+.gadget2Grid7{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius : 10px;
+}
+#buds{
+  width: 40%;
+  height: 40%;
+}
+.gadget2Grid8{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:rgb(232, 230, 230);
+  border-radius : 10px;
+}
+#ipad{
+  width: 40%;
+  height: 40%;
 }
