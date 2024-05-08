@@ -511,7 +511,7 @@ flex-direction: column;
 .discount{
 display: grid;
 gap: 20px;
-grid-template-rows: repeat(2, 300px);
+grid-template-rows: repeat(1, 300px);
 grid-template-columns: repeat(4, 1fr);
 margin: 20px;
 }
@@ -576,4 +576,17 @@ margin: 20px;
   #d4{
     width: 40%;
     height: 40%;
+  }
+  .lower{
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: white;
+    height: 80vh;
+    width:100%   ;
+    justify-content: center;
+    text-align: center;
+  }
+  .sales{
+
   }
