@@ -586,7 +586,33 @@ margin: 20px;
     width:100%   ;
     justify-content: center;
     text-align: center;
+    position: relative;
+  }
+  #big{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 20px;
+  }
+  #fbtn{
+    background: #000;
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 30px;
   }
   .sales{
-
+    position: absolute;
+  }
+  #float1{
+  margin-bottom: 140px;
+  margin-right: 600px;
+  height: 50%;  
+  }
+  #float2{
+    height: 40%;
+    margin-top: 50px; 
+    margin-right: 600px;
   }
