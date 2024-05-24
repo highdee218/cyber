@@ -607,11 +607,21 @@ margin: 20px;
     position: absolute;
   }
   #float1{
-  margin-bottom: 140px;
-  margin-right: 600px;
+    position: absolute;
   height: 50%;  
+  left: 30px;
+  top: 0;
+
   }
   #float2{
-    margin-top: 50px; 
-    margin-right: px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+  }
+  #float3{
+    position: absolute;
+    left: 350px;
+    top: 1px;
+    
   }
