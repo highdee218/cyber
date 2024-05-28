@@ -580,7 +580,7 @@ margin: 20px;
   .lower{
     display: flex;
     align-items: center;
-    background: #000;
+    background: #2e2d2d;
     color: white;
     height: 80vh;
     width:100%   ;
@@ -625,3 +625,50 @@ margin: 20px;
     top: 1px;
     
   }
+  #float4{
+    position: absolute;
+    height: 80% ;
+    right: 0px;
+    top: 1px;
+    
+  }
+  #float5{
+    position: absolute;
+    height:50% ;
+    right: 0px;
+     bottom: 00px;
+    
+  }
+  .last-down{
+    display: flex;
+    align-items: center;
+    background: #000;
+    color: white;
+    height: 80vh;
+    width:100%   ;
+    justify-content: space-around;
+    line-height: 30px;
+    
+  }
+  #cyber-one{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+  #resident{
+    padding-bottom: 150px;
+  }
+  .cyber-two p{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  
+  }
+  .cyber-three p{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  
+  }
+  
+  
